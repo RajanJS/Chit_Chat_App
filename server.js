@@ -75,7 +75,7 @@ io.on('connection', function(socket) {
 
 	socket.emit('message', {
 		name: 'System',
-		text: '  Welcome to the Chit-Chat!',
+		text: 'Welcome ! Let\'s do some Chit-Chat !',
 		timestamp: moment().valueOf()
 	});
 });
