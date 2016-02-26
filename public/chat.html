@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chit-Chat</title>
+</head>
+
+<body>
+    <a href="/index.html">Leave room</a>
+
+    <h1 class="room-title"></h1>
+
+    <div class="messages">
+        <!-- Messages end up here -->
+    </div>
+    <form id="message-form">
+        <input type="text" name="message" />
+        <input type="submit" />
+    </form>
+    <!-- vendor js -->
+    <script type="text/javascript" src="/js/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="/js/socket.io-1.4.5.js"></script>
+    <script type="text/javascript" src="/js/moment.js"></script>
+    <!-- app js -->
+    <script type="text/javascript" src="/js/QueryParams.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
+</body>
+
+</html>
