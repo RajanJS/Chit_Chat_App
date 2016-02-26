@@ -1,0 +1,27 @@
+{
+  "name": "chit-chat",
+  "version": "1.0.0",
+  "description": "Simple NodeJS chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajanJS/Chit_Chat_App.git"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "nodejs"
+  ],
+  "author": "Rajan Maharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajanJS/Chit_Chat_App/issues"
+  },
+  "homepage": "https://github.com/RajanJS/Chit_Chat_App#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
